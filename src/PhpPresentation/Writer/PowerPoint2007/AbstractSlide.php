@@ -237,7 +237,7 @@ abstract class AbstractSlide extends AbstractDecoratorWriter
         // a:bodyPr
         //@link :http://msdn.microsoft.com/en-us/library/documentformat.openxml.drawing.bodyproperties%28v=office.14%29.aspx
         $objWriter->startElement('a:bodyPr');
-        if (!$shape->isPlaceholder()) {
+        //if (!$shape->isPlaceholder()) {   //we need anchor to set placeholder text at middle or bottom, without anchor, placeholder text always at richtext area top
             $verticalAlign = $shape->getActiveParagraph()->getAlignment()->getVertical();
             if (Alignment::VERTICAL_BASE != $verticalAlign && Alignment::VERTICAL_AUTO != $verticalAlign) {
                 $objWriter->writeAttribute('anchor', $verticalAlign);
@@ -277,7 +277,7 @@ abstract class AbstractSlide extends AbstractDecoratorWriter
                 }
             }
             $objWriter->endElement();
-        }
+        //}
         $objWriter->endElement();
         // a:lstStyle
         $objWriter->writeElement('a:lstStyle', null);

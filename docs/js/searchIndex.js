@@ -1096,6 +1096,16 @@ Search.appendIndex(
             "summary": "Load\u0020file\u0020\u0027styles.xml\u0027.",
             "url": "classes/PhpOffice-PhpPresentation-Reader-ODPresentation.html#method_loadStylesFile"
         },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Reader\\ODPresentation\u003A\u003AgetExpressionUnit\u0028\u0029",
+            "name": "getExpressionUnit",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Reader-ODPresentation.html#method_getExpressionUnit"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Reader\\ODPresentation\u003A\u003AgetExpressionValue\u0028\u0029",
+            "name": "getExpressionValue",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Reader-ODPresentation.html#method_getExpressionValue"
+        },                {
             "fqsen": "\\PhpOffice\\PhpPresentation\\Reader\\ODPresentation\u003A\u003A\u0024oPhpPresentation",
             "name": "oPhpPresentation",
             "summary": "Output\u0020Object.",
@@ -4421,6 +4431,26 @@ Search.appendIndex(
             "summary": "Space\u0020between\u0020bar\u0020or\u0020columns\u0020clusters.",
             "url": "classes/PhpOffice-PhpPresentation-Shape-Chart-Type-AbstractTypeBar.html#property_gapWidthPercent"
         },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\Chart\\Type\\AbstractTypeLine",
+            "name": "AbstractTypeLine",
+            "summary": "\\PhpOffice\\PhpPresentation\\Shape\\Chart\\Type.",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-Chart-Type-AbstractTypeLine.html"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\Chart\\Type\\AbstractTypeLine\u003A\u003A\u0024isSmooth",
+            "name": "isSmooth",
+            "summary": "Is\u0020Line\u0020Smooth\u003F",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-Chart-Type-AbstractTypeLine.html#property_isSmooth"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\Chart\\Type\\AbstractTypeLine\u003A\u003AsetIsSmooth\u0028\u0029",
+            "name": "setIsSmooth",
+            "summary": "Set\u0020Line\u0020Smoothness",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-Chart-Type-AbstractTypeLine.html#method_setIsSmooth"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\Chart\\Type\\AbstractTypeLine\u003A\u003AgetHashCode\u0028\u0029",
+            "name": "getHashCode",
+            "summary": "Get\u0020hash\u0020code.",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-Chart-Type-AbstractTypeLine.html#method_getHashCode"
+        },                {
             "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\Chart\\Type\\AbstractTypePie",
             "name": "AbstractTypePie",
             "summary": "\\PhpOffice\\PhpPresentation\\Shape\\Chart\\Type\\Bar.",
@@ -4508,7 +4538,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\Chart\\Type\\Line",
             "name": "Line",
-            "summary": "\\PhpOffice\\PhpPresentation\\Shape\\Chart\\Type\\Line.",
+            "summary": "\\PhpOffice\\PhpPresentation\\Shape\\Chart\\Type.",
             "url": "classes/PhpOffice-PhpPresentation-Shape-Chart-Type-Line.html"
         },                {
             "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\Chart\\Type\\Line\u003A\u003AgetHashCode\u0028\u0029",
@@ -4538,7 +4568,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\Chart\\Type\\Scatter",
             "name": "Scatter",
-            "summary": "\\PhpOffice\\PhpPresentation\\Shape\\Chart\\Type\\Scatter.",
+            "summary": "\\PhpOffice\\PhpPresentation\\Shape\\Chart\\Type.",
             "url": "classes/PhpOffice-PhpPresentation-Shape-Chart-Type-Scatter.html"
         },                {
             "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\Chart\\Type\\Scatter\u003A\u003AgetHashCode\u0028\u0029",
@@ -5663,8 +5693,48 @@ Search.appendIndex(
         },                {
             "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\RichText\\Paragraph\u003A\u003AsetLineSpacing\u0028\u0029",
             "name": "setLineSpacing",
-            "summary": "",
+            "summary": "Value\u0020in\u0020points",
             "url": "classes/PhpOffice-PhpPresentation-Shape-RichText-Paragraph.html#method_setLineSpacing"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\RichText\\Paragraph\u003A\u003AgetLineSpacingMode\u0028\u0029",
+            "name": "getLineSpacingMode",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-RichText-Paragraph.html#method_getLineSpacingMode"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\RichText\\Paragraph\u003A\u003AsetLineSpacingMode\u0028\u0029",
+            "name": "setLineSpacingMode",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-RichText-Paragraph.html#method_setLineSpacingMode"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\RichText\\Paragraph\u003A\u003AgetSpacingBefore\u0028\u0029",
+            "name": "getSpacingBefore",
+            "summary": "Value\u0020in\u0020points",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-RichText-Paragraph.html#method_getSpacingBefore"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\RichText\\Paragraph\u003A\u003AsetSpacingBefore\u0028\u0029",
+            "name": "setSpacingBefore",
+            "summary": "Value\u0020in\u0020points",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-RichText-Paragraph.html#method_setSpacingBefore"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\RichText\\Paragraph\u003A\u003AgetSpacingAfter\u0028\u0029",
+            "name": "getSpacingAfter",
+            "summary": "Value\u0020in\u0020points",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-RichText-Paragraph.html#method_getSpacingAfter"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\RichText\\Paragraph\u003A\u003AsetSpacingAfter\u0028\u0029",
+            "name": "setSpacingAfter",
+            "summary": "Value\u0020in\u0020points",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-RichText-Paragraph.html#method_setSpacingAfter"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\RichText\\Paragraph\u003A\u003ALINE_SPACING_MODE_PERCENT",
+            "name": "LINE_SPACING_MODE_PERCENT",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-RichText-Paragraph.html#constant_LINE_SPACING_MODE_PERCENT"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\RichText\\Paragraph\u003A\u003ALINE_SPACING_MODE_POINT",
+            "name": "LINE_SPACING_MODE_POINT",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-RichText-Paragraph.html#constant_LINE_SPACING_MODE_POINT"
         },                {
             "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\RichText\\Paragraph\u003A\u003A\u0024richTextElements",
             "name": "richTextElements",
@@ -5690,6 +5760,21 @@ Search.appendIndex(
             "name": "lineSpacing",
             "summary": "",
             "url": "classes/PhpOffice-PhpPresentation-Shape-RichText-Paragraph.html#property_lineSpacing"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\RichText\\Paragraph\u003A\u003A\u0024lineSpacingMode",
+            "name": "lineSpacingMode",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-RichText-Paragraph.html#property_lineSpacingMode"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\RichText\\Paragraph\u003A\u003A\u0024spacingBefore",
+            "name": "spacingBefore",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-RichText-Paragraph.html#property_spacingBefore"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\RichText\\Paragraph\u003A\u003A\u0024spacingAfter",
+            "name": "spacingAfter",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-RichText-Paragraph.html#property_spacingAfter"
         },                {
             "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\RichText\\Paragraph\u003A\u003A\u0024hashIndex",
             "name": "hashIndex",
@@ -6046,6 +6131,16 @@ Search.appendIndex(
             "summary": "Set\u0020vertical\u0020auto\u0020shrink.",
             "url": "classes/PhpOffice-PhpPresentation-Shape-RichText.html#method_hasAutoShrinkVertical"
         },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\RichText\u003A\u003AgetColumnSpacing\u0028\u0029",
+            "name": "getColumnSpacing",
+            "summary": "Get\u0020spacing\u0020between\u0020columns",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-RichText.html#method_getColumnSpacing"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\RichText\u003A\u003AsetColumnSpacing\u0028\u0029",
+            "name": "setColumnSpacing",
+            "summary": "Set\u0020spacing\u0020between\u0020columns",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-RichText.html#method_setColumnSpacing"
+        },                {
             "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\RichText\u003A\u003AgetHashCode\u0028\u0029",
             "name": "getHashCode",
             "summary": "Get\u0020hash\u0020code.",
@@ -6135,6 +6230,11 @@ Search.appendIndex(
             "name": "columns",
             "summary": "Number\u0020of\u0020columns\u0020\u00281\u0020\u002D\u002016\u0029.",
             "url": "classes/PhpOffice-PhpPresentation-Shape-RichText.html#property_columns"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\RichText\u003A\u003A\u0024columnSpacing",
+            "name": "columnSpacing",
+            "summary": "The\u0020spacing\u0020between\u0020columns",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-RichText.html#property_columnSpacing"
         },                {
             "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\RichText\u003A\u003A\u0024bottomInset",
             "name": "bottomInset",

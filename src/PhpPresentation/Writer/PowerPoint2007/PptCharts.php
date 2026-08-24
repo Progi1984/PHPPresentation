@@ -768,15 +768,15 @@ class PptCharts extends AbstractDecoratorWriter
 
                 // c:ser > ##c:dLbls
                 $objWriter->endElement();
+            }
 
-                if (Fill::FILL_NONE != $series->getFill()->getFillType()) {
-                    // c:spPr
-                    $objWriter->startElement('c:spPr');
-                    // Write fill
-                    $this->writeFill($objWriter, $series->getFill());
-                    // ## c:spPr
-                    $objWriter->endElement();
-                }
+            if (Fill::FILL_NONE != $series->getFill()->getFillType()) {
+                // c:spPr
+                $objWriter->startElement('c:spPr');
+                // Write fill
+                $this->writeFill($objWriter, $series->getFill());
+                // ## c:spPr
+                $objWriter->endElement();
             }
 
             // Write X axis data
